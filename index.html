@@ -3,7 +3,7 @@
         <title>Mobile Detection</title>
     </head>
     <body>
-        <input type="button" OnClick="DetectIphone()" value="Am I an Iphone?" />
+        <input type="button" OnClick="DetectIphone()" width="100%" height="100%" value="Open Operations Management On Activity 6" />
     </body>
 </html>
 <script>
@@ -12,7 +12,7 @@
        var uagent = navigator.userAgent.toLowerCase();
        if ( (uagent.search("iphone") > -1) || (uagent.search("ipad")  > -1) ){
           //alert('true');
-          location.href ="dop://activity/crs-activity/6";
+          location.href ="dop://deighton-operations-arkansas.azurewebsites.net/app/entity/c-r-s-activity/6/edit";
       } else
           alert('false');
     }
